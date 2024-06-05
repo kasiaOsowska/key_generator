@@ -52,5 +52,5 @@ with open(path_to_pendrive + "encrypted_private_key.bin", "wb") as f:
     f.write(ciphertext)
 with open(path_to_pendrive + "public_key.bin", "wb") as f:
     f.write(pem_public_key)
-print("klucz został zapisany na pendrive")
+print("klucze zostały zapisane na pendrive")
 
